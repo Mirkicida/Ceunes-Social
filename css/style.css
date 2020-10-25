@@ -1,0 +1,27 @@
+body {
+    background: cornflowerblue;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+header{
+    margin: 100px 100px 100px 100px;  /* topo direita baixo esquerda */
+}
+
+h1{
+    color: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: serif;
+}
+
+p{
+    font-size: 12px;
+}
+
+.img-padrao{
+    margin: 100px 100px 100px 100px;
+    width: 100px;
+}
