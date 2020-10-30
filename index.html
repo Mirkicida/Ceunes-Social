@@ -2,74 +2,94 @@
 
 <html lang="pt-br">
     <head>
-        <meta charset="utf-8"> <!-- Serve para adequar o site com o pt-br acentos ç etc -->
+        <meta charset="utf-8">  <!-- Serve para adequar o site com o pt-br acentos ç etc -->
         <title>CEUNES Social</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Serve para pegar todos os arquivos do css -->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">  <!-- Importando o 
+                                                                                        framework Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">    <!-- Serve para pegar todos 
+                                                                                os arquivos do css -->
     </head>
 
     <body>
-        
-        <nav>
-            <ul><!-- Lista para ordenar um menú -->
-                <p>CEUNES Social</p>
-                <li>
-                    <a href="#info-csapp">Informações sobre o CEUNES Social</a><!-- '<a>' Cria hiperlinks '#'sao links dentro da página -->
-                </li>
-                <li>
-                    <a href="#imv">IMV's</a>
-                </li>
-                <li>
-                    <a href="#ajuda-contato">Ajuda e Contato</a>
+    
+        <nav class="navbar navbar-expand -lg navbar-light">    <!-- Adiciona uma barra de navegação -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo2.png" width="40">    <!-- Imagem na barra -->
+            </a>
+
+            <div class="collapse navbar-collapse">
+
+                <ul class="navbar-nav"><!-- Lista para ordenar um menú -->
+                    <li class="nav-iten">
+                        <a class="nav-link" href="index.html"><strong>Inicio</strong></a>
+                    </li>
+
+                    <li class="nav-iten">
+                        <a class="nav-link" href="informacoes-cssocial.html">
+                            <strong>
+                                Informações sobre o CEUNES Social
+                            </strong></a><!-- '<a>' Cria hiperlinks '#'sao links dentro da página -->
+                    </li>
+
+                <li class="nav-iten">
+                    <a class="nav-link" href="#ajuda-contato"><strong>Ajuda e Contato</strong></a>
                 </li>
             </ul>
+
         </nav>
 
-        <p>CEUNES Social</p>
-       
+            <section id="mapa-feed">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 text-center opcoes-inicio menu-ini">
+                            <img src="img/icone-google-maps.png" class="rounded-circle img-menu">
+                            <p><br>Mapa do Campus</p>
+                        </div>
 
-        <header> <!-- Cabeçalho -->
-            <h1>CEUNES Social</h1>
-        </header>
+                        <div class="col-lg-5 text-center opcoes-inicio menu-ini">
+                            <img src="img/logo CS.bmp" class="rounded-circle img-menu">
+                            <p><br>Feed</p>
+                        </div>
+                    </div>
+                </div>
 
-        <section id="info-csapp"> <!-- Cria seções dentro da própria página -->
-            <h2>Informações sobre o CEUNES Social</h2>
-            <p>
-                O CEUNES Social é um aplicativo dos alunos para os alunos da Universidade Federal do Espírito Santo -
-                Centro Educacional do Norte do Espírito Santo para auxilia-los dos momentos iniciais de entrada 
-                até a conclusão do seu curso informando, conversando e ajudando nas maiores duvidas do campus.
-            </p>
+            </section>
 
-            <div><!-- Cria uma divisória -->
-                <img src="img/jpg.png" class="img-padrao"><!-- Adiciona imagens, "class" ajuda no css -->
-            </div>
-        </section>
+            <section id="horario-calendario">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 text-center opcoes-inicio menu-ini">
+                            <img src="img/relogio-menu.png" class="rounded-circle img-menu">
+                            <p><br>Horários</p>
+                        </div>
 
-        <section id="imv">
-            <h2>IMV's</h2>
-            <p>
-                Nós somos Alunos do Campus e as principais cabeças do projeto "CEUNES Social - 
-                <a href="https://play.google.com/store" target="blank">CS App</a>" <!-- 'target' leva o usuario para outra aba -->
-            </p>
-        </section>
+                        <div class="col-lg-5 text-center opcoes-inicio menu-ini">
+                            <img src="img/calendario-menu.png" class="rounded-circle img-menu">
+                            <p><br>Calendário</p>
+                        </div>
+                    </div>
+                </div>
 
-        <section id="ajuda-contato">
-            <h2>Ajuda e Contato</h2>
-            <p>
-                Se tiver qualquer problema, elogio ou crítica pode entrar em contato conosco
-            </p>
+            </section>
 
-            <div>
-                <p>
-                    <a href="mailto:contato@empresa.com">contato@empresa.com</a> <!-- 'mailto:' redireciona o usuario diretamente para o app email do windowns -->
-                    
-                </p>
-            </div>
+            <section id="eventos-docentes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 text-center opcoes-inicio menu-ini">
+                            <img src="img/eventos-menu.png" class="rounded-circle img-menu">
+                            <p><br>Eventos</p>
+                        </div>
 
-        </section>
+                        <div class="col-lg-5 text-center opcoes-inicio menu-ini">
+                            <img src="img/docentes-menu.png" class="rounded-circle img-menu">
+                            <p><br>Docentes</p>
+                        </div>
+                    </div>
+                </div>
 
-        <footer> <!-- Rodapé -->
-            <p>Desenvolvido por IMV's</p>
-        </footer>
+            </section>
+
 
     </body>
+
 </html>

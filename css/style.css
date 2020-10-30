@@ -1,27 +1,31 @@
-body {
-    background: cornflowerblue;
-    margin-left: 300px;
-    margin-right: 300px;
+.navbar{
+    background-color: #3e4ceb;
 }
 
-header{
-    margin: 100px 100px 100px 100px;  /* topo direita baixo esquerda */
+body{
+    background-color: white;
 }
 
-h1{
-    color: yellowgreen;
-    font-family: Arial, Helvetica, sans-serif;
+.info-text{
+    padding: 50px;
+    background-color: #f8e6fe;
 }
 
-h2{
-    font-family: serif;
+.margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-p{
-    font-size: 12px;
+.opcoes-inicio{
+    background-color: #f8e6fe;
 }
 
-.img-padrao{
-    margin: 100px 100px 100px 100px;
-    width: 100px;
+.menu-ini{
+    padding: 10px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.img-menu{
+    height: 200px;
 }
